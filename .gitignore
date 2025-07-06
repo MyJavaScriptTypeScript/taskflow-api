@@ -1,0 +1,174 @@
+# =====================================================
+# NODE.JS ET NPM
+# =====================================================
+
+# Dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache npm
+.npm
+
+# Fichiers de lock optionnels
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =====================================================
+# TYPESCRIPT ET BUILD
+# =====================================================
+
+# Fichiers compilés
+dist/
+build/
+*.tsbuildinfo
+
+# Cache TypeScript
+*.tscache
+
+# =====================================================
+# ENVIRONNEMENT ET CONFIGURATION
+# =====================================================
+
+# Variables d'environnement (CRITIQUE pour la sécurité)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers de configuration locaux
+config/local.json
+config/local.js
+
+# =====================================================
+# LOGS ET MONITORING
+# =====================================================
+
+# Dossiers de logs
+logs/
+*.log
+
+# Logs d'erreur npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================================================
+# TESTS ET COUVERTURE
+# =====================================================
+
+# Rapports de couverture
+coverage/
+.nyc_output/
+
+# Résultats de tests
+test-results/
+junit.xml
+
+# =====================================================
+# DÉVELOPPEMENT ET DEBUG
+# =====================================================
+
+# Debugger
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Profiling
+isolate-*
+
+# =====================================================
+# DOCKER ET DÉPLOIEMENT
+# =====================================================
+
+# Fichiers Docker temporaires
+.dockerignore
+
+# =====================================================
+# BASE DE DONNÉES
+# =====================================================
+
+# Dumps de base de données
+*.sql
+*.dump
+*.backup
+
+# Fichiers de migration temporaires
+migrations/temp/
+
+# =====================================================
+# SÉCURITÉ ET CERTIFICATS
+# =====================================================
+
+# Clés privées et certificats
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Secrets et tokens
+.secrets/
+tokens/
+
+# =====================================================
+# SYSTÈME D'EXPLOITATION
+# =====================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =====================================================
+# DOCUMENTATION GÉNÉRÉE
+# =====================================================
+
+# Documentation auto-générée
+docs/generated/
+docs/api/
+
+# =====================================================
+# CACHE ET TEMPORAIRES
+# =====================================================
+
+# Cache ESLint
+.eslintcache
+
+# Cache de l'éditeur
+.vscode/settings.json
+
+# Fichiers temporaires
+*.tmp
+*.temp
+temp/
+tmp/
+
+# =====================================================
+# SPÉCIFIQUE AU PROJET ZIZA
+# =====================================================
+
+# Sauvegardes de développement
+*.backup
+*.bak
+
+# Exports de données de test
+exports/
+dumps/
+
+# Configuration de développement local
+config.local.*
